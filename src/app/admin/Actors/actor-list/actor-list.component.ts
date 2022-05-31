@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { stringify } from 'querystring';
 import { Actor } from 'src/app/models/Actor';
 import { AdminService } from 'src/app/services/admin.service';
 

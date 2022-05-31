@@ -1,8 +1,8 @@
 export class EditUserModel {
-    id: string;
-    userName: string;
-    email: string;
-    emailConfirmed: boolean;
-    password: string;
-    phoneNumber: string;
+    id: string=null!;
+    userName: string=null!;
+    email: string=null!;
+    emailConfirmed: boolean=false;
+    password: string=null!;
+    phoneNumber: string=null!;
 }

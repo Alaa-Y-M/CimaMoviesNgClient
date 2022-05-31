@@ -1,5 +1,5 @@
 export class Actor {
-   id: number;
-   actorName: string;
-   actorPicture: string;
+   id: number=null!;
+   actorName: string=null!;
+   actorPicture: string=null!;
 }

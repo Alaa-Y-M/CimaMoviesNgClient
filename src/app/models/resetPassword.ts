@@ -1,5 +1,5 @@
 export class ResetPasswordModel {
-    Token: string;
-    Id: string;
-    Password: string;
+    Token: string=null!;
+    Id: string=null!;
+    Password: string=null!;
 }

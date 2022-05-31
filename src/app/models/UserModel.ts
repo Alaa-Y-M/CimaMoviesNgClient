@@ -1,7 +1,7 @@
 export class UserModel {
-  userName: string;
-  email: string;
-  emailConfirmed: boolean;
-  password: string;
-  phoneNumber: string;
+  userName: string=null!;
+  email: string=null!;
+  emailConfirmed: boolean=false;
+  password: string=null!;
+  phoneNumber: string=null!;
 }

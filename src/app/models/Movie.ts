@@ -1,10 +1,10 @@
 import { SubCategory } from './SubCatgory';
 
 export class Movie {
-    id: number;
-    movieName: string;
-    movieStory: string;
-    movieTrailer: string;
-    moviePost: string;
-    subCategory: SubCategory;
+    id: number=null!;
+    movieName: string=null!;
+    movieStory: string=null!;
+    movieTrailer: string=null!;
+    moviePost: string=null!;
+    subCategory: SubCategory=null!;
 }

@@ -1,4 +1,4 @@
 export class EditUserRoleModel {
-    userId: string;
-    roleId: string;
+  userId: string = null!;
+  roleId: string = null!;
 }

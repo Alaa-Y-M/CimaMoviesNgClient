@@ -4,11 +4,11 @@ import { RegisterService } from 'src/app/services/register.service';
 import { CryptService } from 'src/app/services/crypt.service';
 
 @Component({
-  selector: 'app-forgt-password',
+  selector: 'app-forget-password',
   templateUrl: './forget-password.component.html',
   styleUrls: ['./forget-password.component.css']
 })
-export class ForgtPasswordComponent implements OnInit {
+export class ForgetPasswordComponent implements OnInit {
 
   constructor(
     private service: RegisterService,

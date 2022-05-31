@@ -28,7 +28,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'registerconfirm', component: RegisterconfirmComponent },
-  { path: 'forgetpassword', component: ForgetPasswordComponent },
+  { path: 'forgetpassword', component:ForgetPasswordComponent},
   { path: 'passwordconfirm', component: PasswordconfirmComponent },
   { path: 'controlpanel', component: DashboardComponent, canActivate: [DashboardGuard] },
   { path: 'edituser/:id', component: AddUserComponent },

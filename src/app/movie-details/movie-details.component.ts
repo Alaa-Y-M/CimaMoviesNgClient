@@ -38,7 +38,7 @@ export class MovieDetailsComponent implements OnInit {
                 this.film = file;
                 var id = $('#mov');
                 id[0].setAttribute('src',URL.createObjectURL(this.film));
-                id.parents()[0].load("");
+                id.parents()[0].addEventListener('load',()=>{});
               })
             }
           }

@@ -1,17 +1,17 @@
 export class Users {
-    id: string;
-    userName: string;
-    normalizedUserName: string;
-    email: string;
-    normalizedEmail: string;
-    emailConfirmed: boolean;
-    passwordHash: string;
-    securityStamp: string;
-    concurrencyStamp: string;
-    phoneNumber: string;
-    phoneNumberConfirmed: boolean;
-    twoFactorEnabled: boolean;
-    lockoutEnd: Date;
-    lockoutEnabled: boolean;
-    accessFailedCount: number;
+    id: string=null!;
+    userName: string=null!;
+    normalizedUserName: string=null!;
+    email: string=null!;
+    normalizedEmail: string=null!;
+    emailConfirmed: boolean=false;
+    passwordHash: string=null!;
+    securityStamp: string=null!;
+    concurrencyStamp: string=null!;
+    phoneNumber: string=null!;
+    phoneNumberConfirmed: boolean=false;
+    twoFactorEnabled: boolean=false;
+    lockoutEnd: Date=null!;
+    lockoutEnabled: boolean=false;
+    accessFailedCount: number=null!;
 }

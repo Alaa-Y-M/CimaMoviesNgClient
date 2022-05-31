@@ -1,10 +1,10 @@
 import { Movie } from "./Movie";
 
 export class MovieLink {
-    id: number;
-    quality: string;
-    resolation: number;
-    movLink: string;
-    movieId: number;
-    movie: Movie;
+    id: number=null!;
+    quality: string=null!;
+    resolation: number=null!;
+    movLink: string=null!;
+    movieId: number=null!;
+    movie: Movie=null!;
 }

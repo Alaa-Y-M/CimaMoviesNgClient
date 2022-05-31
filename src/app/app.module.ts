@@ -13,7 +13,7 @@ import { FooterMenuComponent } from './footer-menu/footer-menu.component';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { RegisterComponent } from './account/register/register.component';
 import { LoginComponent } from './account/login/login.component';
-import { ForgtPasswordComponent } from './account/forget-password/forget-password.component';
+import { ForgetPasswordComponent } from './account/forget-password/forget-password.component';
 import { RegisterconfirmComponent } from './account/registerconfirm/registerconfirm.component';
 import { PasswordconfirmComponent } from './account/passwordconfirm/passwordconfirm.component';
 import { AddUserComponent } from './admin/add-user/add-user.component';
@@ -48,7 +48,7 @@ import { SubCategoryListComponent } from './admin/SubCategories/sub-category-lis
     MovieDetailsComponent,
     RegisterComponent,
     LoginComponent,
-    ForgtPasswordComponent,
+    ForgetPasswordComponent,
     RegisterconfirmComponent,
     PasswordconfirmComponent,
     AddUserComponent,

@@ -1,6 +1,6 @@
 export class RoleModel {
-    id: string;
-    name: string;
-    normalizedName: string;
-    concurrencyStamp: string;
+    id: string=null!;
+    name: string=null!;
+    normalizedName: string=null!;
+    concurrencyStamp: string=null!;
 }

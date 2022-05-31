@@ -32,7 +32,6 @@
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/@poppers/core/dist/cjs/popper.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },

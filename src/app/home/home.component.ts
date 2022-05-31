@@ -19,9 +19,9 @@ export class HomeComponent implements OnInit {
     private activateRoute: ActivatedRoute
   ) { }
 
-  subCategories: SubCategory[]=null!;
+  subCategories: SubCategory[]=[];
   formSearch:FormGroup=null!;
-  movies: Movie[] = null!;
+  movies: Movie[] =[];
 
   message: string = '';
 
